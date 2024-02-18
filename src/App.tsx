@@ -76,7 +76,7 @@ function App() {
           </div>
         )}
       </div>
-      <div className=" sm:w-1/2 w-full flex flex-row m-auto  h-40 mt-4 gap-4 ">
+      <div className=" sm:w-1/2 w-full flex flex-row m-auto  min-h-40  mt-4 gap-4 ">
         <div className="bg-lime-300 text-wrap rounded-lg w-1/2 flex justify-center">
           <p className="flex flex-col justify-center">
             <span>For Just</span>
