@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      <div className="p-8 flex flex-col bg-yellow-400 rounded-xl sm:w-1/2 w-full m-auto h-80">
+      <div className="p-8 flex flex-col bg-yellow-400 rounded-xl sm:w-1/2 w-full m-auto min-h-80">
         <h1 className="text-4xl font-bold">
           A new era of <span className="text-green-400">Education</span>
           <p className="block">is about to begin</p>
@@ -87,7 +87,7 @@ function App() {
             </span>
           </p>
         </div>
-        <div className="bg-blue-400 h-full w-1/2 rounded-lg flex flex-col justify-center">
+        <div className="bg-blue-400 h-max w-1/2  rounded-lg flex flex-col justify-center">
           <p className="flex flex-col justify-center font-bold text-2xl ">
             Learn anywhere from your phone
           </p>
